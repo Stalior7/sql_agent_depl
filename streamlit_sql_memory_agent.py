@@ -12,8 +12,8 @@ import os
 load_dotenv()
 
 # Initialize Streamlit session
-st.set_page_config(page_title="SQL AI Agent", layout="centered")
-st.markdown("<h1 style='text-align: center;'>📊 SQL ReAct Agent</h1>", unsafe_allow_html=True)
+st.set_page_config(page_title="SENTINEL AI", layout="centered")
+st.markdown("<h1 style='text-align: center;'>Hi there!😊 I am Sentinel, your personal Home Assistant. You may ask any queries related to electricity consumption of devices</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Talk to your Supabase SQL data using natural language</p>", unsafe_allow_html=True)
 
 # Initialize session state
